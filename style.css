@@ -1,0 +1,620 @@
+
+.datablock		{padding:2%;}
+.noteblock  		{padding:2%;}
+.clear			{ clear: both;}
+
+/* =Responsive Images
+-------------------------------------------------------------- */
+img {
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.ie8 img {
+	height: auto; 
+	width: auto\9; 
+}
+
+.ie8 img.size-large {
+	max-width: 60%;
+	width: auto;
+}
+
+
+@media screen and (max-width: 240px) {
+	.block			{width :  100%; float: left;}
+	.datablock		{ margin: 10px 0px; width : 100%; float : left;}
+	.noteblock  		{width : 100%; float : left;}
+	
+	.maindiv{
+		background: #FFFFFF;
+		margin-top: 5%;
+		width: 150px !important;
+		height:auto;
+		margin: 0 auto;
+		margin-top : 5%;
+		padding: 5% 1%;
+	}
+	.headerdiv{
+		width: 150px !important;
+		height:auto;
+		overflow: auto;
+	}
+	.headerclass{
+		margin: 8% 0 !important;
+		width: 100% !important;
+		font-weight: bold !important;
+		font-size : 12px !important;
+		max-height: 50px;
+    	overflow: hidden;
+	}
+	.tablecss{
+		width: 45% !important;
+		font-weight: bold;
+		font-size : 11px !important;
+		float: left;
+	}
+	.redirectcss{
+		float : right;
+		width : 100% !important;
+		height : 110px;
+		margin-top: 10px;
+	}
+	.button{
+		font-weight: bold;
+		background-color:#BBBBBB;
+		border: 1px solid #CCCCCC;
+		font-weight: bold;
+		min-width: 100px;
+		padding-top:3px;
+		padding-bottom: 3px;
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.textbox{
+		border: 1px solid #CCCCCC;
+		padding-top:3px;
+		padding-bottom: 3px;
+		width: 160px !important;
+		font-size: 13px !important;
+		line-height: 25px !important;
+	}
+	.notefont{
+		font-weight: bold;
+		color: #FD0000;
+		font-size: 8px !important;
+		margin-top: 12px;
+	}
+	.note{   FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: green;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.errorfont{
+    FONT-SIZE: 12px;
+    COLOR: red;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	 .liformyaccount{
+		font-size: 11px;
+   		font-weight: bold;
+   		/* margin-left: -25px; */
+	}
+	.liforusername{
+		font-size: 11px;
+        font-weight: bold;
+       /*  margin-left: -25px; */
+	}
+	.msgdiv{
+    	 text-align: center;
+	}
+	.msgdivForCHALLENGE{
+    	 margin-right: 0px !important;
+    	 text-align: center;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.block			{width:100%; float: left;}
+	.datablock		{width : 100%; float : left; padding:1% !important;}
+	.noteblock  		{width : 100%; float : left;}
+	body {font-family: Arial;font-size: 9px;}
+	.maindiv{
+		background: #FFFFFF;
+		margin-top: 5%;
+		width: 200px !important;
+		height:auto;
+		margin: 0 auto;
+		margin-top : 5%;
+		padding: 5% 1%;
+	}
+	.headerdiv{
+		width: 200px !important;
+		height:auto;
+		overflow: auto;
+	}
+	.headerclass{
+		margin: 8% 0 !important;
+		width: 100% !important;
+		font-weight: bold !important;
+		font-size : 12px !important;
+		max-height: 50px;
+    	overflow: hidden;
+	}
+	.tablecss{
+		width: 45%!important;
+		font-weight: bold;
+		font-size : 11px !important;
+		float: left;
+	}
+	.redirectcss{
+		float : right;
+		width : 100% !important;
+		height : 110px;
+		margin-top: 10px;
+	}
+	.button{
+		font-weight: bold;
+		background-color:#BBBBBB;
+		border: 1px solid #CCCCCC;
+		font-weight: bold;
+		min-width: 100px;
+		padding-top:3px;
+		padding-bottom: 3px;
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.textbox{
+		border: 1px solid #CCCCCC;
+		padding-top:3px;
+		padding-bottom: 3px;
+		width: 190px !important;
+		font-size: 13px !important;
+		line-height: 25px !important;
+	}
+	.notefont{
+		font-weight: bold;
+		color: #FD0000;
+		font-size: 10px !important;
+		margin-top: 12px;
+	}
+	.image{
+		float: none !important;
+		width : 100%;
+	}
+	.note{   FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: green;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.errorfont{
+    FONT-SIZE: 12px;
+    COLOR: red;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+    .liformyaccount{
+		font-size: 11px;
+   		font-weight: bold;
+   		/* margin-left: -25px; */
+	}
+	.liforusername{
+		font-size: 11px;
+        font-weight: bold;
+       /*  margin-left: -25px; */
+	}
+	.msgdiv{
+    	 text-align: center;
+	}
+	.msgdivForCHALLENGE{
+    	 margin-right: 0px !important;
+    	 text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.block			{width:100%; float: left;}
+	.datablock		{width : 100%; float : left; padding:1% !important;}
+	.noteblock  		{width : 100%; float : left;}
+	body {font-family: Arial;font-size: 10px;}
+	.maindiv{
+		background: #FFFFFF;
+		margin-top: 5%;
+		width: 300px !important;
+		height:auto;
+		margin: 0 auto;
+		margin-top : 5%;
+		padding: 5% 1%;
+	}
+	.headerdiv{
+		width: 300px !important;
+		height:auto;
+		overflow: auto;
+	}
+	.headerclass{
+		margin: 8% 0 !important;
+		width: 100% !important;
+		font-weight: bold !important;
+		font-size : 13px !important;
+		max-height: 50px;
+    	overflow: hidden;
+	}
+	.tablecss{
+		width: 49%;
+		font-weight: bold;
+		font-size : 12px;
+		float: left;
+	}
+	.redirectcss{
+		float : right;
+		width : 100% !important;
+		height : 110px;
+		margin-top: 10px;
+	}
+	.button{
+		font-weight: bold;
+		background-color:#BBBBBB;
+		border: 1px solid #CCCCCC;
+		font-weight: bold;
+		min-width: 100px;
+		padding-top:3px;
+		padding-bottom: 3px;
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.textbox{
+		border: 1px solid #CCCCCC;
+		padding-top:3px;
+		padding-bottom: 3px;
+		width: 200px;
+		font-size: 13px !important;
+		line-height: 25px !important;
+	}
+	.notefont{
+		font-weight: bold;
+		color: #FD0000;
+		font-size: 9px !important;
+		margin-top: 12px;
+	}
+	.image{
+		float: none !important;
+		width : 100%;
+	}
+	.note{   FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: green;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.errorfont{
+    FONT-SIZE: 12px;
+    COLOR: red;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.liformyaccount{
+		font-size: 11px;
+    	font-weight: bold;
+   		/* margin-left: -82px; */
+	}
+	.liforusername{
+		font-size: 11px;
+   		font-weight: bold;
+    	/* margin-left: 30px; */
+	}
+	.msgdiv{
+    	 text-align: center;
+	}
+	.msgdivForCHALLENGE{
+    	 margin-right: 0px !important;
+    	 text-align: center;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	body {font-family: Arial;font-size: 11px;}
+	.block			{width:100%; float: left;}
+	.datablock		{width : 100%; float : left; padding:1% !important;}
+	.noteblock  		{width : 100%; float : left;}
+	.maindiv{
+		background: #FFFFFF;
+		margin-top: 5%;
+		box-shadow: none !important;
+		border: none !important;
+		width: 60% !important;
+		margin: 0 15%;
+		padding: 5% 1%;
+	}
+	.headerdiv{
+		width: 80% !important;
+		height:auto;
+		overflow: auto;
+	}
+	.headerclass{
+		width: 180px;
+		font-weight: bold;
+		font-size : 14px;
+		margin: 8% 0 !important;
+		max-height: 50px;
+    	overflow: hidden;
+	}
+	.tablecss{
+		width: 49%;
+		font-weight: bold;
+		font-size : 12px;
+		float: left;
+	}
+	.redirectcss{
+		float : right;
+		width :100% !important;
+		height : 110px;
+		margin-top: 10px;
+	}
+	.button{
+		font-weight: bold;
+		background-color:#BBBBBB;
+		border: 1px solid #CCCCCC;
+		font-weight: bold;
+		min-width: 100px;
+		padding-top:3px;
+		padding-bottom: 3px;
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.textbox{
+		border: 1px solid #CCCCCC;
+		padding-top:3px;
+		padding-bottom: 3px;
+		width: 200px;
+		font-size: 11px !important;
+		line-height:20px;
+	}
+	.notefont{
+		font-weight: bold;
+		color: #FD0000;
+		font-size: 12px;
+		margin-top: 12px;
+	}
+	.note{   FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: green;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.errorfont{
+    FONT-SIZE: 12px;
+    COLOR: red;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.liformyaccount{
+		font-size: 11px;
+    	font-weight: bold;
+   		/* margin-left: -82px; */
+	}
+	.liforusername{
+		font-size: 11px;
+   		font-weight: bold;
+    	/* margin-left: 30px; */
+	}
+	.msgdiv{
+    	 text-align: center;
+	}
+	.msgdivForCHALLENGE{
+		 margin-right: 0px !important;
+    	 text-align: center;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	body {font-family: Arial;font-size: 12px;}
+	.block			{width:100%; float: left;}
+	.datablock		{width : 100%; float : left;}
+	.noteblock  		{width : 100%; float : left;}
+	.loginboxtitle	{ float: none !important;}
+	.maindiv{
+		background: #FFFFFF;
+		margin-top: 5%;
+		box-shadow: 0px 0px 10px #666666;
+		border: 1px solid #CCCCCC;
+		width: 70% !important;
+		margin: 6% 12% !important;
+		padding: 5% 1%;
+	}
+	.headerdiv{
+		width: 100% !important;
+		height:auto;
+		overflow: auto;
+	}
+	.headerclass{
+		/* float: left; */
+    	font-size: 20px;
+    	font-weight: bold;
+    	margin-top: 20px;
+    	max-height: 50px;
+    	overflow: hidden;
+    	width: 100% !important;
+	}
+	.tablecss{
+		width: 100% !important;
+		font-weight: bold;
+		font-size : 13px;
+		float: none !important;
+	}
+	.redirectcss{
+		float : right;
+		width : 90%;
+		height : 70px;
+		margin-top: 10px;
+	}
+	.button{
+		font-weight: bold;
+		background-color:#BBBBBB;
+		border: 1px solid #CCCCCC;
+		font-weight: bold;
+		min-width: 100px;
+		padding-top:3px;
+		padding-bottom: 3px;
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.textbox{
+		border: 1px solid #CCCCCC;
+		padding-top:3px;
+		padding-bottom: 3px;
+		width: 200px;
+		font-size: 11px !important;
+		line-height:15px;
+	}
+	.notefont{
+		font-weight: bold;
+		color: #FD0000;
+		font-size: 12px;
+		margin: 2% 0 !important;
+	}
+	.image{
+		float: none !important;
+		width : 100%;
+	}
+	.note{   FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: green;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.errorfont{
+    FONT-SIZE: 12px;
+    COLOR: red;
+    FONT-FAMILY: tahoma,arial,san-serif;
+    TEXT-DECORATION: none
+	}
+	.liformyaccount{
+		font-size: 11px;
+    	font-weight: bold;
+   		/* margin-left: -82px; */
+   		text-align: left;
+	}
+	.liforusername{
+		font-size: 11px;
+   		font-weight: bold;
+    	/* margin-left: -25px; */
+   		text-align: left;
+	}
+	.msgdiv{
+    	 text-align: center;
+	}
+	.msgdivForCHALLENGE{
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 980px){
+	.block			{width:100%; float: left;}
+	.datablock		{width : 100%; float : left;}
+	.noteblock  		{width : 100%; float : left;}
+	body {font-family: Arial;font-size: 13px;}
+	.maindiv{
+		background: #FFFFFF;
+		margin-top: 5%;
+		box-shadow: 0px 0px 10px #666666;
+		border: 1px solid #CCCCCC;
+		width: 500px;
+		margin: 0 auto;
+		margin-top : 5%;
+		padding: 3% 1%;
+	}
+	.headerdiv{
+		width: 100%;
+		height:auto;
+		overflow: auto;
+	}
+	.headerclass{
+		float: left;
+    	font-size: 20px;
+    	font-weight: bold;
+    	margin-top: 20px;
+    	max-height: 50px;
+    	overflow: hidden;
+    	width: 55%;
+	}
+	.image{
+		float : right;
+		width : 30%;
+	}
+	.tablecss{
+		width: 49%;
+		font-weight: bold;
+		font-size : 12px;
+		float: left;
+	}
+	.redirectcss{
+		float : right;
+		width : 49%;
+		height : 70px;
+		margin-top: 10px;
+	}
+	.button{
+		font-weight: bold;
+		background-color:#BBBBBB;
+		border: 1px solid #CCCCCC;
+		font-weight: bold;
+		min-width: 100px;
+		padding-top:3px;
+		padding-bottom: 3px;
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	.textbox{
+		border: 1px solid #CCCCCC;
+		padding-top:3px;
+		padding-bottom: 3px;
+		width: 200px;
+		font-size: 11px !important;
+		line-height:15px;
+	}
+	.notefont{
+		font-weight: bold;
+		color: #FD0000;
+		font-size: 12px;
+		margin: 2% 0;
+	}
+	.note{   
+		FONT-WEIGHT: bold;
+	    FONT-SIZE: 11px;
+	    COLOR: green;
+	    FONT-FAMILY: tahoma,arial,san-serif;
+	    TEXT-DECORATION: none
+
+	}
+	.errorfont{
+	    FONT-SIZE: 12px;
+	    COLOR: red;
+	    FONT-FAMILY: tahoma,arial,san-serif;
+	    TEXT-DECORATION: none
+	}
+	.liformyaccount{
+		font-size: 11px;
+    	font-weight: bold;
+   		/* margin-left: -82px; */
+   		text-align: left;
+	}
+	.liforusername{
+		font-size: 11px;
+   		font-weight: bold;
+    	/* margin-left: -25px; */
+   		text-align: left;
+	}
+	.msgdiv{
+    	 text-align: center;
+	}
+	.msgdivForCHALLENGE{
+		text-align: left;
+    	margin-left: 20px;
+	}
+}
