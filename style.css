@@ -1,10 +1,17 @@
 
-.datablock		{padding:2%;}
-.noteblock  		{padding:2%;}
-.clear			{ clear: both;}
+.datablock {
+	padding:2%;
+}
 
-/* =Responsive Images
--------------------------------------------------------------- */
+.noteblock {
+	padding:2%;
+}
+
+.clear{ 
+	clear: both;
+}
+
+/* 
 img {
 	-ms-interpolation-mode: bicubic;
 	border: 0;
